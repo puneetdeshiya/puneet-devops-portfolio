@@ -30,9 +30,9 @@ justify-between
 items-center
 ">
 
-<h1 className="text-xl font-bold text-orange-400">
+<a href="#home" className="text-xl font-bold text-orange-400" aria-label="Go to homepage">
 puneet.cloud
-</h1>
+</a>
 
 
 <div className="space-x-6 text-gray-300">
