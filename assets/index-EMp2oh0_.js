@@ -54,7 +54,7 @@ py-4\r
 flex\r
 justify-between\r
 items-center\r
-`,children:[x.jsx("h1",{className:"text-xl font-bold text-orange-400",children:"puneet.cloud"}),x.jsxs("div",{className:"space-x-6 text-gray-300",children:[x.jsx("a",{href:"#about",children:"About"}),x.jsx("a",{href:"#skills",children:"Skills"}),x.jsx("a",{href:"#projects",children:"Projects"}),x.jsx("a",{href:"#contact",children:"Contact"})]})]})})}/**
+`,children:[x.jsx("a",{href:"#home",className:"text-xl font-bold text-orange-400","aria-label":"Go to homepage",children:"puneet.cloud"}),x.jsxs("div",{className:"space-x-6 text-gray-300",children:[x.jsx("a",{href:"#about",children:"About"}),x.jsx("a",{href:"#skills",children:"Skills"}),x.jsx("a",{href:"#projects",children:"Projects"}),x.jsx("a",{href:"#contact",children:"Contact"})]})]})})}/**
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
