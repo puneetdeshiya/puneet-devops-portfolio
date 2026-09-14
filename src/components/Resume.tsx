@@ -5,7 +5,8 @@ const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
 return (
 
 <section className="
-py-24
+py-20
+sm:py-24
 bg-black
 ">
 
@@ -13,13 +14,15 @@ bg-black
 <div className="
 max-w-5xl
 mx-auto
-px-6
+px-4
+sm:px-6
 text-center
 ">
 
 
 <h2 className="
-text-4xl
+text-3xl
+sm:text-4xl
 gradient-text
 font-bold
 mb-6
@@ -31,6 +34,8 @@ Resume
 
 
 <p className="
+text-sm
+sm:text-base
 text-gray-400
 mb-8
 ">

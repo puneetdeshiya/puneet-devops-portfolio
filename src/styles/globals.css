@@ -10,6 +10,13 @@ scroll-behavior:smooth;
 }
 
 
+* {
+
+box-sizing: border-box;
+
+}
+
+
 body{
 
 margin:0;
@@ -22,6 +29,8 @@ sans-serif;
 background:#020617;
 
 color:white;
+
+overflow-x:hidden;
 
 }
 

@@ -31,6 +31,8 @@ items-center
 relative
 overflow-hidden
 bg-hero-gradient
+pt-20
+sm:pt-0
 "
 
 >
@@ -78,10 +80,13 @@ animate-pulse
 <div className="
 max-w-7xl
 mx-auto
-px-6
+px-4
+sm:px-6
 grid
+grid-cols-1
 md:grid-cols-2
-gap-10
+gap-8
+sm:gap-10
 items-center
 relative
 z-10
@@ -111,6 +116,8 @@ duration:0.8
 text-orange-400
 font-semibold
 mb-4
+text-sm
+sm:text-base
 ">
 
 Senior DevOps Engineer
@@ -119,7 +126,8 @@ Senior DevOps Engineer
 
 
 <h1 className="
-text-5xl
+text-4xl
+sm:text-5xl
 md:text-7xl
 font-bold
 leading-tight
@@ -139,7 +147,8 @@ gradient-text
 
 
 <h2 className="
-text-2xl
+text-xl
+sm:text-2xl
 mt-5
 text-gray-300
 ">
@@ -153,12 +162,27 @@ Platform Engineer
 
 
 <p className="
+mt-5
+text-sm
+sm:text-base
+text-gray-300
+max-w-xl
+">
+
+I help teams build secure, scalable cloud platforms and DevOps systems that are reliable, automated, and ready for growth.
+
+</p>
+
+
+<p className="
 mt-6
+text-sm
+sm:text-base
 text-gray-400
 max-w-xl
 ">
 
-8+ years of experience designing,
+8.5 years of experience designing,
 automating and managing enterprise
 cloud infrastructure, Kubernetes platforms,
 CI/CD pipelines and highly available systems.
@@ -169,7 +193,10 @@ CI/CD pipelines and highly available systems.
 
 <div className="
 flex
-gap-5
+flex-col
+sm:flex-row
+gap-4
+sm:gap-5
 mt-8
 flex-wrap
 ">
@@ -189,6 +216,9 @@ text-black
 font-semibold
 hover:bg-orange-400
 transition
+w-full
+sm:w-auto
+text-center
 "
 
 >
@@ -211,6 +241,9 @@ border
 border-white/30
 hover:bg-white/10
 transition
+w-full
+sm:w-auto
+text-center
 "
 
 >
@@ -249,6 +282,8 @@ className="
 relative
 flex
 justify-center
+mt-8
+md:mt-0
 "
 
 
@@ -256,8 +291,10 @@ justify-center
 
 
 <div className="
-w-72
-h-72
+w-64
+h-64
+sm:w-72
+sm:h-72
 rounded-full
 glass
 flex

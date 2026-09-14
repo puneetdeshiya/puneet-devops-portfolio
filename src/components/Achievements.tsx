@@ -42,7 +42,8 @@ function Achievements(){
 return (
 
 <section className="
-py-24
+py-20
+sm:py-24
 bg-slate-900
 ">
 
@@ -50,15 +51,18 @@ bg-slate-900
 <div className="
 max-w-6xl
 mx-auto
-px-6
+px-4
+sm:px-6
 ">
 
 
 <h2 className="
-text-4xl
+text-3xl
+sm:text-4xl
 gradient-text
 font-bold
-mb-10
+mb-8
+sm:mb-10
 ">
 
 Achievements
@@ -69,9 +73,11 @@ Achievements
 
 <div className="
 grid
-grid-cols-2
-md:grid-cols-3
-gap-6
+grid-cols-1
+sm:grid-cols-2
+lg:grid-cols-3
+gap-4
+sm:gap-6
 ">
 
 
@@ -109,7 +115,8 @@ text-center
 
 
 <h3 className="
-text-4xl
+text-3xl
+sm:text-4xl
 font-bold
 text-orange-400
 ">

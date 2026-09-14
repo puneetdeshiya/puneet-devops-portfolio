@@ -6,7 +6,8 @@ function Experience(){
 return (
 
 <section className="
-py-24
+py-20
+sm:py-24
 bg-slate-950
 ">
 
@@ -14,15 +15,18 @@ bg-slate-950
 <div className="
 max-w-5xl
 mx-auto
-px-6
+px-4
+sm:px-6
 ">
 
 
 <h2 className="
-text-4xl
+text-3xl
+sm:text-4xl
 gradient-text
 font-bold
-mb-10
+mb-8
+sm:mb-10
 ">
 
 Professional Experience
@@ -50,7 +54,8 @@ border-orange-500
 
 
 <h3 className="
-text-2xl
+text-xl
+sm:text-2xl
 font-bold
 ">
 

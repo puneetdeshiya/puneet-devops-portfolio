@@ -14,7 +14,8 @@ return (
 id="about"
 
 className="
-py-24
+py-20
+sm:py-24
 bg-slate-950
 "
 
@@ -24,7 +25,8 @@ bg-slate-950
 <div className="
 max-w-6xl
 mx-auto
-px-6
+px-4
+sm:px-6
 "
 
 >
@@ -41,10 +43,12 @@ opacity:1
 }}
 
 className="
-text-4xl
+text-3xl
+sm:text-4xl
 font-bold
 gradient-text
-mb-8
+mb-6
+sm:mb-8
 "
 
 >
@@ -71,7 +75,10 @@ y:40
 className="
 glass
 rounded-3xl
-p-8
+p-5
+sm:p-8
+text-base
+sm:text-lg
 text-gray-300
 leading-relaxed
 "
