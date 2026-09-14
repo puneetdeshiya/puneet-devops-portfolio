@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+
+Sitemap:
+https://puneetdeshiya.github.io/puneet-devops-portfolio/sitemap.xml
